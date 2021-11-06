@@ -14,6 +14,7 @@ export const Content = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    
     justify-content: center;
     width: 100%;
     max-width: 700px;
@@ -81,6 +82,12 @@ export const InputContainer = styled.div`
     svg {
         margin-right: 16px;
     }
+`;
+
+export const Error = styled.span`
+    font-size: 1rem;
+    font-weight: bold;
+    color: coral;
 `;
 
 export const Background = styled.div`
