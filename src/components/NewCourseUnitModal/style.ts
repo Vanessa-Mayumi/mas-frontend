@@ -6,20 +6,26 @@ export const Container = styled.div`
         font-size: 1.5rem;
         margin-bottom: 2rem;
     }
+
     input {
         width: 100%;
         padding: 0 1.5rem;
         height: 3rem;
         border-radius: 0.25rem;
+
         border: 1px solid #d7d7d7;
+
         font-size: 1.2rem;
+
         &::placeholder {
             color: var(--text-dark);
         }
+
         & + input {
             margin-top: 1rem;
         }
     }
+
     button[type="submit"] {
         width: 100%;
         padding: 0 1.5rem;
@@ -31,7 +37,9 @@ export const Container = styled.div`
         font-size: 1.2rem;
         font-weight: bold;
         margin-top: 1.5rem;
+
         transition: filter 0.2s;
+
         &:hover {
             filter: brightness(0.8);
         }
