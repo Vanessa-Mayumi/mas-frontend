@@ -17,8 +17,8 @@ export function Register() {
 
     const history = useHistory()
 
-    const onSubmit = handleSubmit(data => api.post('/user', data).then(() => history.push('/')));
-
+   const onSubmit = handleSubmit(async data => api.post('/user', data).then(() => history.push('/')));
+   //const onSubmit = handleSubmit(async data => alert(JSON.stringify(data)));
     return (
         <Container>
             <Content>
@@ -65,4 +65,4 @@ export function Register() {
         </Container>
 
     )
-    }
+}

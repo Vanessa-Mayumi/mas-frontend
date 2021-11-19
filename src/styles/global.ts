@@ -1,6 +1,7 @@
-import {createGlobalStyle} from 'styled-components';
+import{createGlobalStyle} from 'styled-components';
 
 export default createGlobalStyle`
+
 
 :root {
     --background: #bdbebd;
@@ -86,5 +87,4 @@ transition: filter 0.2s;
 &:hover {
     filter: brightness(0.6);
 }
-}
-`
+}`

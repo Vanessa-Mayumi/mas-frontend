@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Header } from "../../components/Header";
+import {Header} from '../../components/Header';
 import { ActivyTable } from '../../components/ActivyTable';
 import { Summary } from '../../components/Summary';
 import {NewActivyModal} from '../../components/NewActivyModal';

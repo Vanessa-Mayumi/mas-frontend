@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import {format, parseISO} from 'date-fns';
+import {format, parseISO} from 'date-fns'
 import { Container } from './styles';
 import api from '../../services/api';
 

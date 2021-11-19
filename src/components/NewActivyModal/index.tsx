@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Modal from 'react-modal';
 import {FiX} from 'react-icons/fi';
 import { useForm } from 'react-hook-form'
-import { Container, Error } from './style'
+import { Container, Error } from './styles'
 import api from '../../services/api';
 
 interface NewActivyModalProps {

@@ -13,6 +13,7 @@ interface FormData {
 export function Login() {
 
     const {signIn} = useAuth();
+    //const testeK = useAuth();
 
     const history = useHistory();
 
@@ -22,7 +23,7 @@ export function Login() {
             email: data.email,
             password: data.password
         }).then(() => history.push('/dashboard'))
-    );
+    );   
 
     return (
         <Container>

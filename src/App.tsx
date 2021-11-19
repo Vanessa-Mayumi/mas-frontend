@@ -1,17 +1,16 @@
-import { BrowserRouter as Router } from 'react-router-dom';
-import {AppProvider} from './hooks';
+import {BrowserRouter as Router} from 'react-router-dom'
 import Routes from './routes';
-
-import GlobalStyle from './styles/global';
-
+import GlobalStyle from './Styles/global';
+import { AuthProvider } from "./hooks/Auth";
 function App() {
+
   return (
-    <Router>
-      <AppProvider>
+    <AuthProvider>
+      <Router>
         <Routes />
-      </AppProvider>
-      <GlobalStyle />
-    </Router>
+        <GlobalStyle />
+      </Router>
+      </AuthProvider>
   );
 }
 
